@@ -148,6 +148,7 @@ header {
     margin-right: 30px;
 }
 
+/* Start of first column, third row in main */
 .column-up {
     width: 100%;
     text-align: center;
@@ -204,6 +205,8 @@ header {
 .column-down > .plan-info {
     margin-bottom: 15px;
 }
+/* End of first column, third row in main */
+
 /* End of third row */
 
 
