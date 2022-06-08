@@ -29,9 +29,22 @@ header {
 .h-up-left > div, .h-up-right > div {
     padding: 0px 15px;
 }
+/* End of header-up*/
 
-.h-down-center-container {
-    height: 350px;
+/* Start of header-down */
+.header-down {
+    background-color: #b4d0e7;
+    height: 470px;
+}
+
+.h-down-center {
+    height: 450px;
+    width: 80%;
+    margin: 50px auto 0px auto;
+}
+
+.h-down-center > div {
+    display: flex;
 }
 
 .h-down-center > h1 {
@@ -40,8 +53,12 @@ header {
     padding-bottom: 20px;
 }
 
+.h-down-center-container {
+    height: 350px;
+}
+
 .h-down-center-container > .content-left {
-    width: calc(100% /3);
+    width: calc(100% / 3);
     text-align: start;
     padding-left: 20px;
 }
@@ -58,7 +75,7 @@ header {
     font-size: 30px;
     position: absolute;
     left: 20px;
-    bottom: 100px;
+    bottom: 90px;
 }
 
 .h-img {
@@ -67,20 +84,7 @@ header {
     background-size: contain;
     background-repeat: no-repeat;
 }
-/* End of header-up*/
-
-/* Start of header-down */
-.header-down {
-    background-color: #b4d0e7;
-}
-
-.h-down-center {
-    margin: 50px auto 0px auto;
-}
-
-.h-down-center > div {
-    display: flex;
-}
+/* End of header-down */
 /* End of header */
 
 /* Start of main */
@@ -139,13 +143,9 @@ header.debug {
     background-color: blueviolet;
 }*/
 
-.header-down {
-    height: 470px;
-}
+
 
 .h-down-center {
-    height: 450px;
-    width: 80%;
     background-color: lightpink;
 }
 
