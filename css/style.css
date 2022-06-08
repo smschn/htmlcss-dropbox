@@ -95,6 +95,7 @@ header {
 }
 
 .m-content-1 {
+    height: 200px;
     width: 100%;
     border: solid 1px #e5e5e7;
 }
@@ -373,6 +374,7 @@ header {
     margin-bottom: 40px;
 }
 /* End of seventh row */
+
 /* End of main-container-1 */
 
 /* Start of main-container-2*/
@@ -380,12 +382,98 @@ header {
     width: 100%;
 }
 
-.m-content-2-down {
-    width: 70%;
-    margin: auto;
+/* Start of m-container-2-up */
+.m-container-2-up {
+    height: 366px;
+    display: flex;
 }
 
-/* Start of m-container-2-up */
+.big-square {
+    width: calc(100% / 3);
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.small-square {
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+}
+
+/* Start of left square*/
+.small-square.one {
+    background-image: url('../img/designit.svg');
+    background-color: #a2d39b;
+}
+
+.small-square.two {
+    background-image: url('../img/arizona_state_university.svg');
+    background-color: #61082b;
+}
+
+.small-square.three {
+    background-image: url('../img/university_of_florida.svg');
+    background-color: #0093ce;
+}
+
+.small-square.four {
+    background-image: url('../img/topps.svg');
+    background-color: #ff1c1c;
+}
+
+.big-square > div {
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* End of left square*/
+
+/* Start of center square*/
+.big-square.center {
+    background-color: #f5f5f5;
+}
+
+.big-square.center > .container {
+    margin: 5%;
+}
+
+.big-square.center > .container > img {
+    width: 60%;
+    object-fit: contain;
+}
+
+.big-square.center > .container > .row {
+    margin: 40px 0px;
+    border: 1px solid #d2d2d5;
+    width: 30%;
+}
+
+.big-square.center > .container > .p1 {
+    margin-bottom: 20px;
+}
+/* End of center square*/
+
+/* Start of right square */
+.small-square.five {
+    background-image: url('../img/world_bicycle_relief.svg');
+    background-color: #d5001f;
+}
+
+.small-square.six {
+    background-image: url('../img/hearst_corp.svg');
+    background-color: #b4d0e7;
+}
+
+.small-square.seven {
+    background-image: url('../img/lonely_planet.svg');
+    background-color: #0d2481;
+}
+
+.small-square.eight {
+    background-image: url('../img/clear_channel.svg');
+    background-color: #ffd830;
+}
+/* End of right square */
 
 /* End of m-container-2-up */
 
@@ -398,7 +486,9 @@ header {
 }
 
 .m-content-2-down {
-    display: flex;S
+    width: 70%;
+    margin: auto;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
@@ -463,16 +553,12 @@ header.debug {
 
 /* start of main */
 .m-content-1 {
-    height: 200px;
     background-color: blueviolet;
 }
 
 .m-container-2-up {
-    background-color: lightblue;
-    height: 100px;
-}
+  
 
-.m-container-2-down {
 }
 
 .m-content-1.bottom {
@@ -493,7 +579,7 @@ footer {
     height: 200px;
     background-color: lightgray;
 }
-/* Best viewed with 1184px width */
+/* Best viewed with 1200px width */
 
 /* To do list:
 + clickable links
