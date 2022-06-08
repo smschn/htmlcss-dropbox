@@ -230,6 +230,7 @@ header {
 /* End of fourth row up */
 /* Start of fourth-row down */
 .fourth-row.down {
+    border: solid 1px #e5e5e7;
     padding: 20px;
 }
 
@@ -247,8 +248,46 @@ header {
     margin-bottom: 30px;
     font-weight: bold;
 }
-
+/* End of fourth-row down */
 /* End of fourth row */
+
+/* Start of fifth row */
+.m-content-1.fifth {
+    height: 500px;
+    padding: 50px;
+}
+
+.m-content-1.fifth > .img {
+    width: calc(100% / 3 * 2);
+    height: 100%;
+    background-image: url('../img/partner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+
+.m-content-1.fifth > .description {
+    width: calc(100% / 3);
+    float: right;
+    padding: 20px;
+}
+
+.description > h2 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.description > .button {
+    margin-top: 20px;
+    width: 70%;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+/* End of fifth row */
+
+/* Start of sixth row */
+/* End of sixth row */
 
 /* Start of main-container-2*/
 .main-container-2 {
@@ -335,7 +374,6 @@ footer {
     height: 200px;
     background-color: lightgray;
 }
-
 /* Best viewed with 1184px width */
 
 /* To do list:
