@@ -96,6 +96,7 @@ header {
 
 .m-content-1 {
     width: 100%;
+    border: solid 1px #e5e5e7;
 }
 
 .m-content-1.first {
@@ -214,9 +215,40 @@ header {
     margin-bottom: 15px;
 }
 /* End of first column, third row in main */
-
 /* End of third row */
 
+/* Start of fourth row */
+/* Start of fourth row up */
+.fourth-row.up {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px #e5e5e7;
+}
+/* End of fourth row up */
+/* Start of fourth-row down */
+.fourth-row.down {
+    padding: 20px;
+}
+
+.fourth-row.down .up-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fourth-row.down .up-content > h2 {
+    font-size: 20px;
+}
+
+.fourth-row.down > .p1 {
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+/* End of fourth row */
 
 /* Start of main-container-2*/
 .main-container-2 {
