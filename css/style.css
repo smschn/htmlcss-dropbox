@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+    font-size: small;
 }
 
 /* Start of header */
@@ -29,13 +30,44 @@ header {
     padding: 0px 15px;
 }
 
-.h-button {
-    background-color: #0061ff;
-    color: #fff;
+.h-down-center-container {
+    height: 350px;
 }
 
-/* Start of header-up-left*/
+.h-down-center > h1 {
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+}
 
+.h-down-center-container > .content-left {
+    width: calc(100% /3);
+    text-align: start;
+    padding-left: 20px;
+}
+
+.content-left > .button {
+    display: inline-block;
+}
+
+.content-left {
+    position: relative;
+}
+
+.fa-arrow-down {
+    font-size: 30px;
+    position: absolute;
+    left: 20px;
+    bottom: 100px;
+}
+
+.h-img {
+    width: calc(100% / 3 * 2);
+    background-image: url('../img/jumbo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/* End of header-up*/
 
 /* Start of header-down */
 .header-down {
@@ -44,6 +76,10 @@ header {
 
 .h-down-center {
     margin: 50px auto 0px auto;
+}
+
+.h-down-center > div {
+    display: flex;
 }
 /* End of header */
 
@@ -78,6 +114,12 @@ footer {
     width: 100%;
 }
 
+/* Reusable code */
+.button {
+    background-color: #0061ff;
+    color: #fff;
+    padding: 15px;
+}
 
 /* Following code is used only for debug purposes*/
 .debug {
@@ -98,13 +140,13 @@ header.debug {
 }*/
 
 .header-down {
-    height: 450px;
+    height: 470px;
 }
 
 .h-down-center {
     height: 450px;
     width: 80%;
-    background-color: black;
+    background-color: lightpink;
 }
 
 /* start of main */
@@ -142,7 +184,9 @@ footer {
     background-color: lightgray;
 }
 
+/* Best viewed with 1184px width */
+
 /* To do list:
 + clickable links
-+ buttons = same style
++ all buttons = same style
 + 
