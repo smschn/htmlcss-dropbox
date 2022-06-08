@@ -366,8 +366,14 @@ header {
     background-repeat: no-repeat;
     height: 300px;
 }
-
 /* End of sixth row */
+/* Start of seventh row */
+.m-content-1.seventh > h1 {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+/* End of seventh row */
+/* End of main-container-1 */
 
 /* Start of main-container-2*/
 .main-container-2 {
@@ -378,6 +384,41 @@ header {
     width: 70%;
     margin: auto;
 }
+
+/* Start of m-container-2-up */
+
+/* End of m-container-2-up */
+
+/* Start of m-container-2-down */
+.m-container-2-down {
+    display: flex;
+    align-items: center;
+    background-color: #b4d0e7;
+    height: 200px;
+}
+
+.m-content-2-down {
+    display: flex;S
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.m-content-2-down > h1 {
+    font-size: 30px;
+    color: #611341;
+    width: calc(100% / 3 * 2);
+}
+
+.m-content-2-down > div.button {
+    background-color: #fff;
+    color: #000;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+/* End of m-container-2-down */
+/* End of main-container-2*/
 
 /* Start of main-container-1 bottom */
 .main-container-1.bottom {
@@ -432,8 +473,6 @@ header.debug {
 }
 
 .m-container-2-down {
-    background-color: lightcoral;
-    height: 100px;
 }
 
 .m-content-1.bottom {
@@ -459,4 +498,5 @@ footer {
 /* To do list:
 + clickable links
 + all buttons = same style
++ position fixed for top header
 + 
