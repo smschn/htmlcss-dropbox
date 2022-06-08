@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Start of header */
+header {
+    height: 600px;
+    width: 100%;
+}
+/* Start of header-up*/
+.header-up {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Start of header-down */
+.header-down {
+    background-color: #b4d0e7;
+}
+
+.h-down-center {
+    margin: 50px auto 0px auto;
+}
+
+/* Following code is used only for debug purposes*/
+.debug {
+    border: 1px dashed red;
+}
+
+/*header*/
+header.debug {
+    background-color: aqua;
+}
+
+.header-up {
+    background-color: antiquewhite;
+}
+
+.header-up > div {
+    width: 150px;
+    height: 100%;
+    background-color: blueviolet;
+}
+
+.header-down {
+    height: 450px;
+}
+
+.h-down-center {
+    height: 450px;
+    width: 60%;
+    background-color: black;
+}
+
+/* main */
