@@ -98,13 +98,13 @@ header {
     width: 100%;
 }
 
-/* Start of first content */
+/* Start of first row */
 .m-content-1 > .first-title {
     font-size: 30px;
 }
-/* End of first content */
+/* End of first row */
 
-/* Start of second content */
+/* Start of second row */
 .m-content-1.second {
     display: flex;
 }
@@ -124,11 +124,26 @@ header {
 .left-circle-text {
     margin-right: 40px;
 }
-/* End of second content */
+/* End of second row */
 
-/* Start of second content */
+/* Start of third row */
+.m-content-1.third {
+    display: flex;
+    height: 400px;
+}
 
-/* End of second content */
+.third-row-column {
+    width: calc(100% / 3 - 20px);
+    border: dashed 2px red;
+    height: 100%;
+}
+
+.third-row-column.left, .third-row-column.center {
+    margin-right: 30px;
+}
+
+
+/* End of third row */
 
 
 /* Start of main-container-2*/
