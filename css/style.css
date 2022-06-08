@@ -170,7 +170,7 @@ header {
     margin-bottom: 10px;
 }
 
-.column-down > .month {
+.column-down > .payday {
     margin-bottom: 30px;
 }
 
@@ -178,8 +178,16 @@ header {
     margin: 10px 0px;
 }
 
+.online-archive > i {
+    padding-right: 5px;
+}
+
 .column-down > .premium-functionality {
     margin-bottom: 30px;
+}
+
+.premium-functionality > i {
+    margin-right: 5px;
 }
 
 .column-down > .button {
