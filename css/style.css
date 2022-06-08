@@ -98,6 +98,10 @@ header {
     width: 100%;
 }
 
+.m-content-1.first {
+    height: 70px;
+}
+
 /* Start of first row */
 .m-content-1 > .first-title {
     font-size: 30px;
@@ -107,6 +111,7 @@ header {
 /* Start of second row */
 .m-content-1.second {
     display: flex;
+    height: 40px
 }
 
 .circle {
@@ -129,20 +134,76 @@ header {
 /* Start of third row */
 .m-content-1.third {
     display: flex;
-    height: 400px;
+    height: 900px;
 }
 
 .third-row-column {
     width: calc(100% / 3 - 20px);
     border: dashed 2px red;
     height: 100%;
+    border: solid 1px #e5e5e7;
 }
 
 .third-row-column.left, .third-row-column.center {
     margin-right: 30px;
 }
 
+.column-up {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border-bottom: solid 1px #e5e5e7;
+}
 
+.column-down {
+    width: 100%;
+    padding: 20px;
+}
+
+.column-down > h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.column-down > .price {
+    margin-bottom: 10px;
+}
+
+.column-down > .month {
+    margin-bottom: 30px;
+}
+
+.column-down > .online-archive {
+    margin: 10px 0px;
+}
+
+.column-down > .premium-functionality {
+    margin-bottom: 30px;
+}
+
+.column-down > .button {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.column-down > .row {
+    border: #e5e5e7 solid 0.5px;
+    width: 40%;
+    margin: 30px 0px;
+}
+
+.column-down > h4 {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.fa-check {
+    color: #0061ff;
+}
+
+.column-down > .plan-info {
+    margin-bottom: 15px;
+}
 /* End of third row */
 
 
