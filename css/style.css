@@ -10,14 +10,32 @@ header {
     height: 600px;
     width: 100%;
 }
+
 /* Start of header-up*/
 .header-up {
-    height: 100px;
+    height: 80px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+.h-up-left, .h-up-right {
+    display: flex;
+    align-items: center;
+}
+
+.h-up-left > div, .h-up-right > div {
+    padding: 0px 15px;
+}
+
+.h-button {
+    background-color: #0061ff;
+    color: #fff;
+}
+
+/* Start of header-up-left*/
+
 
 /* Start of header-down */
 .header-down {
@@ -27,6 +45,7 @@ header {
 .h-down-center {
     margin: 50px auto 0px auto;
 }
+/* End of header */
 
 /* Start of main */
 /* Start of main-container-1 */
@@ -69,16 +88,14 @@ footer {
 header.debug {
     background-color: aqua;
 }
-
+/*
 .header-up {
     background-color: antiquewhite;
-}
-
+}*/
+/*
 .header-up > div {
-    width: 150px;
-    height: 100%;
     background-color: blueviolet;
-}
+}*/
 
 .header-down {
     height: 450px;
@@ -124,3 +141,8 @@ footer {
     height: 200px;
     background-color: lightgray;
 }
+
+/* To do list:
++ clickable links
++ buttons = same style
++ 
