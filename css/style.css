@@ -287,6 +287,86 @@ header {
 /* End of fifth row */
 
 /* Start of sixth row */
+.m-content-1.sixth {
+    height: 1100px;
+}
+
+.m-content-1.sixth > h1 {
+    font-size: 30px;
+}
+
+.container-sixth-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.content-sixth-row {
+    width: calc(100% / 3 - 20px);
+    height: 450px;
+    background-color: red;
+    border: 1px solid #fff;
+}
+
+.content-sixth-row.first, .content-sixth-row.second {
+    margin-right: 30px;
+}
+
+.content-sixth-row.first, .content-sixth-row.second, .content-sixth-row.third {
+    margin-bottom: 20px;
+}
+
+.content-sixth-row > div.img-1 {
+    background-image: url('../img/business-feature-switching-tools.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.content-sixth-row > h3 {
+    margin-top: -80px;
+    font-size: 18px;
+}
+
+.content-sixth-row > p {
+    margin-top: 30px;
+}
+
+.content-sixth-row > div.img-2 {
+    background-image: url('../img/business-feature-send-files-it.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.content-sixth-row > div.img-3 {
+    background-image: url('../img/business-feature-coordinate-it.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.content-sixth-row > div.img-4 {
+    background-image: url('../img/business-feature-integrations-it.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.content-sixth-row > div.img-5 {
+    background-image: url('../img/business-feature-multi-device.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.content-sixth-row > div.img-6 {
+    background-image: url('../img/business-feature-security.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
 /* End of sixth row */
 
 /* Start of main-container-2*/
