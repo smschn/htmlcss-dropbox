@@ -618,7 +618,7 @@ footer {
 /* End of f-sub-container-down*/
 /* End of footer */
 
-/* Reusable code */
+/* Multi-elements code */
 .button {
     background-color: #0061ff;
     color: #fff;
@@ -647,7 +647,41 @@ footer {
 }
 
 .small-square:hover {
-    border: 10px solid #d1e9cd;
+    border: 10px solid;
+    cursor: pointer;
+}
+
+/* Square hover effect */
+.small-square.one:hover {
+    border-color: #d1e9cd;
+}
+
+.small-square.two:hover {
+    border-color: #870b3b;
+}
+
+.small-square.three:hover {
+    border-color: #00aef4;
+}
+
+.small-square.four:hover {
+    border-color: #ff491c;
+}
+
+.small-square.five:hover {
+    border-color: #ff0025;
+}
+
+.small-square.six:hover {
+    border-color: #c6deff;
+}
+
+.small-square.seven:hover {
+    border-color: #1439cd;
+}
+
+.small-square.eight:hover {
+    border-color: #fff330;
 }
 
 /* Following code is used only for debug purposes*/
