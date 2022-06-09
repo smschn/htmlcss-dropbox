@@ -19,6 +19,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 999;
+    background-color: #fff;
 }
 
 .h-up-left, .h-up-right {
@@ -35,6 +40,7 @@ header {
 .header-down {
     background-color: #b4d0e7;
     height: 470px;
+    margin-top: 80px;
 }
 
 .h-down-center {
