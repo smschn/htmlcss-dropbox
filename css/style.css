@@ -649,9 +649,10 @@ footer {
 .small-square:hover {
     border: 10px solid;
     cursor: pointer;
+    animation: circle 1s;
 }
 
-/* Square hover effect */
+/* Square hover effect - bonus section*/
 .small-square.one:hover {
     border-color: #d1e9cd;
 }
@@ -682,6 +683,17 @@ footer {
 
 .small-square.eight:hover {
     border-color: #fff330;
+}
+
+/* Animation - bonus section */
+
+@keyframes circle {
+    50% {
+        border-radius: 50%;
+    }
+    100% {
+        border-radius: 0%;
+    }
 }
 
 /* Following code is used only for debug purposes*/
