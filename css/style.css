@@ -384,20 +384,19 @@ header {
 
 /* Start of m-container-2-up */
 .m-container-2-up {
-    height: 366px;
     display: flex;
 }
 
 .big-square {
-    width: calc(100% / 3);
-    height: 100%;
+    width: 33.33vw;
+    aspect-ratio: 1;
     display: flex;
     flex-wrap: wrap;
 }
 
 .small-square {
     width: calc(100% / 2);
-    height: calc(100% / 2);
+    aspect-ratio: 1;
 }
 
 /* Start of left square*/
@@ -431,6 +430,7 @@ header {
 /* Start of center square*/
 .big-square.center {
     background-color: #f5f5f5;
+    overflow-y: scroll;
 }
 
 .big-square.center > .container {
@@ -517,7 +517,7 @@ header {
 }
 
 .m-content-1.bottom {
-    height: 100%;
+    height: 95%;
 }
 
 .m-content-1.bottom > h1 {
@@ -556,6 +556,7 @@ header {
 .sub-container:hover .icon-open {
     display: none;
 }
+/* End of main-container-1 bottom */
 
 /* Start of footer */
 footer {
