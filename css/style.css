@@ -623,6 +623,7 @@ footer {
     background-color: #0061ff;
     color: #fff;
     padding: 15px;
+    transition: all 1s;
 }
 
 .button:hover {
@@ -638,6 +639,15 @@ footer {
 
 .clickable:hover {
     border-bottom: 2px solid #0061ff;
+    font-weight: bolder;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.small-square:hover {
+    border: 10px solid #d1e9cd;
 }
 
 /* Following code is used only for debug purposes*/
