@@ -126,7 +126,7 @@ header {
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    border: grey solid 2px;
+    border: #d2d2d5 solid 2px;
     margin-right: 5px;
 }
 
@@ -623,6 +623,21 @@ footer {
     background-color: #0061ff;
     color: #fff;
     padding: 15px;
+}
+
+.button:hover {
+    background-color: #d2d2d5;
+    color: #000;
+    cursor: pointer;
+}
+
+.clickable {
+    text-decoration: none;
+    color: #000;
+}
+
+.clickable:hover {
+    border-bottom: 2px solid #0061ff;
 }
 
 /* Following code is used only for debug purposes*/
