@@ -32,7 +32,12 @@ header {
 }
 
 .h-up-left > div, .h-up-right > div {
-    padding: 0px 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.h-btn {
+    margin-right: 10px;
 }
 /* End of header-up*/
 
@@ -46,7 +51,8 @@ header {
 .h-down-center {
     height: 450px;
     width: 80%;
-    margin: 50px auto 0px auto;
+    margin: auto;
+    padding-top: 30px;
 }
 
 .h-down-center > div {
@@ -97,13 +103,12 @@ header {
 /* Start of main-container-1 */
 .main-container-1 {
     width: 70%;
-    margin: 80px auto 0px auto;
+    margin: 20px auto 0px auto;
 }
 
 .m-content-1 {
     height: 200px;
     width: 100%;
-    border: solid 1px #e5e5e7;
 }
 
 .m-content-1.first {
@@ -119,7 +124,8 @@ header {
 /* Start of second row */
 .m-content-1.second {
     display: flex;
-    height: 40px
+    height: 40px;
+    margin-bottom: 20px;
 }
 
 .circle {
@@ -225,6 +231,11 @@ header {
 /* End of third row */
 
 /* Start of fourth row */
+.m-content-1.fourth {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
 /* Start of fourth row up */
 .fourth-row.up {
     height: 50px;
@@ -262,6 +273,7 @@ header {
 .m-content-1.fifth {
     height: 500px;
     padding: 50px;
+    margin-bottom: 40px;
 }
 
 .m-content-1.fifth > .img {
@@ -496,7 +508,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
 }
 
 .m-content-2-down > h1 {
@@ -508,9 +519,6 @@ header {
 .m-content-2-down > div.button {
     background-color: #fff;
     color: #000;
-    position: absolute;
-    top: 0px;
-    right: 0px;
 }
 /* End of m-container-2-down */
 /* End of main-container-2*/
@@ -519,10 +527,7 @@ header {
 .main-container-1.bottom {
     margin-bottom: 50px;
     height: 500px;
-}
-
-.m-content-1.bottom {
-    height: 95%;
+    margin-top: 80px;
 }
 
 .m-content-1.bottom > h1 {
@@ -569,6 +574,7 @@ footer {
     height: 450px;
     background-color: #000;
     color: #fff;
+    padding-top: 50px;
 }
 
 .footer-container {
@@ -622,8 +628,8 @@ footer {
 .button {
     background-color: #0061ff;
     color: #fff;
-    padding: 15px;
-    transition: all 1s;
+    padding: 10px;
+    transition: all 0.5s;
 }
 
 .button:hover {
@@ -696,7 +702,7 @@ footer {
     }
 }
 
-/* Following code is used only for debug purposes*/
+/* Following code is used only for debug purposes
 .debug {
     border: 1px dashed red;
 }
@@ -729,9 +735,4 @@ header.debug {
     background-color: lightcyan;
 }
 
-/* Project best viewed with 1200px width 
-
-/* To do list:
-+ clickable links
-+ position fixed for top header
-+ border when in hover small-square
+/* Project best viewed with 1200px width
