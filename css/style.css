@@ -91,7 +91,7 @@ header {
 /* Start of main-container-1 */
 .main-container-1 {
     width: 70%;
-    margin: 50px auto 0px auto;
+    margin: 80px auto 0px auto;
 }
 
 .m-content-1 {
@@ -389,6 +389,7 @@ header {
 .big-square {
     width: 33.33vw;
     aspect-ratio: 1;
+    /*or height: calc(100vw / 3)*/
     display: flex;
     flex-wrap: wrap;
 }
@@ -473,7 +474,6 @@ header {
     background-color: #ffd830;
 }
 /* End of right square */
-
 /* End of m-container-2-up */
 
 /* Start of m-container-2-down */
@@ -560,7 +560,7 @@ header {
 /* Start of footer */
 footer {
     width: 100%;
-    height: 500px;
+    height: 450px;
     background-color: #000;
     color: #fff;
 }
@@ -568,27 +568,28 @@ footer {
 .footer-container {
     width: 80%;
     margin: 50px auto;
-    height: 400px;
+    height: 350px;
 }
 
 /* Start of f-sub-container-up*/
-.f-sub-title {
+.f-sub-container-up {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.f-sub-title > li {
+.f-sub-container-up > div {
     width: calc(100% / 5);
-    font-size: 24px;
 }
 
-.f-sub-title, .f-sub-list {
-    list-style: none;
+.f-sub-title {
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .f-sub-list {
     margin-top: 20px;
+    list-style: none;
 }
 
 .f-sub-list > li {
@@ -656,4 +657,4 @@ header.debug {
 /* To do list:
 + clickable links
 + position fixed for top header
-+ 
++ border when in hover small-square
