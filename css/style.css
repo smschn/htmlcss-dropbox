@@ -305,7 +305,6 @@ header {
 .content-sixth-row {
     width: calc(100% / 3 - 20px);
     height: 450px;
-    background-color: red;
     border: 1px solid #fff;
 }
 
@@ -595,16 +594,21 @@ footer {
 .f-sub-list > li {
     padding: 10px 0px;
 }
+/* End of f-sub-container-up*/
 
+/* Start of f-sub-container-center*/
 .footer-container > .row {
     width: 15%;
     margin: 40px 0px;
     border: 1px solid #d2d2d5;
 }
+/* End of f-sub-container-center*/
 
+/* Start of f-sub-container-down*/
 .f-sub-container-down {
     color: grey;
 }
+/* End of f-sub-container-down*/
 /* End of footer */
 
 /* Reusable code */
@@ -619,24 +623,26 @@ footer {
     border: 1px dashed red;
 }
 
-/* start of header*/
+/* start of header
 header.debug {
     background-color: aqua;
 }
+
 /*
 .header-up {
     background-color: antiquewhite;
-}*/
+}
+
 /*
 .header-up > div {
     background-color: blueviolet;
-}*/
+}
 
 .h-down-center {
     background-color: lightpink;
 }
 
-/* start of main */
+/* start of main 
 .m-content-1 {
     background-color: blueviolet;
 }
@@ -645,9 +651,7 @@ header.debug {
     background-color: lightcyan;
 }
 
-/* start of footer */
-
-/* Best viewed with 1200px width */
+/* Project best viewed with 1200px width 
 
 /* To do list:
 + clickable links
