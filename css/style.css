@@ -87,7 +87,7 @@ header {
     position: absolute;
     left: 20px;
     bottom: 90px;
-    animation: up-down 3s linear infinite;
+    animation: up-down 2s linear infinite;
 }
 
 .h-img {
@@ -703,10 +703,10 @@ footer {
 
 @keyframes up-down {
     33% {
-        transform: translate(0px, -15px);
+        transform: translate(0px, -10px);
     }
     66% {
-        transform: translate(0px, 15px);
+        transform: translate(0px, 10px);
     }
     100% {
         transform: translate(0px, 0px);
