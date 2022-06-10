@@ -403,7 +403,7 @@ header {
 }
 
 .big-square {
-    width: 33.33vw;
+    width: calc(100vw / 3);
     aspect-ratio: 1;
     /*or height: calc(100vw / 3)*/
     display: flex;
@@ -413,6 +413,7 @@ header {
 .small-square {
     width: calc(100% / 2);
     aspect-ratio: 1;
+    border: 10px solid transparent;
 }
 
 /* Start of left square*/
@@ -656,7 +657,11 @@ footer {
     animation: circle 1s;
 }
 
-/* Square hover effect - bonus section*/
+.small-square:active {
+    animation: scale-down 1s;
+}
+
+/* Square hover effect - bonus section */
 .small-square.one:hover {
     border-color: #d1e9cd;
 }
@@ -690,12 +695,9 @@ footer {
 }
 
 /* Animation - bonus section */
-@keyframes circle {
+@keyframes scale-down {
     50% {
-        border-radius: 50%;
-    }
-    100% {
-        border-radius: 0%;
+        transform: scale(0.8);
     }
 }
 
