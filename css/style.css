@@ -146,11 +146,11 @@ header {
 /* Start of third row */
 .m-content-1.third {
     display: flex;
-    height: 750px;
+    height: 850px;
 }
 
 .third-row-column {
-    width: calc(100% / 3 - 20px);
+    width: calc(90% / 3 - 20px);
     border: dashed 2px red;
     height: 100%;
     border: solid 1px #e5e5e7;
@@ -160,7 +160,7 @@ header {
     margin-right: 30px;
 }
 
-/* Start of first column, third row in main */
+/* Start of columns, third row in main */
 .column-up {
     width: 100%;
     text-align: center;
@@ -182,24 +182,8 @@ header {
     margin-bottom: 10px;
 }
 
-.column-down > .payday {
+.column-down > .billing {
     margin-bottom: 30px;
-}
-
-.column-down > .online-archive {
-    margin: 10px 0px;
-}
-
-.online-archive > i {
-    padding-right: 5px;
-}
-
-.column-down > .premium-functionality {
-    margin-bottom: 30px;
-}
-
-.premium-functionality > i {
-    margin-right: 5px;
 }
 
 .column-down > .button {
@@ -225,13 +209,33 @@ header {
 .column-down > .plan-info {
     margin-bottom: 15px;
 }
-/* End of first column, third row in main */
+
+.third-row-column.center {
+    margin-bottom: 50px;
+}
+/* End of columns, third row in main */
+
+/* Start of multi-element rules for columns */
+.online-archive, .premium-functionality, .plan-info {
+    display: flex;
+    margin: 20px 0px;
+}
+
+.m-content-1.third i, .plan-info i {
+    padding-top: 3px;
+    padding-right: 5px;
+}
+/* End of multi-element rules for columns */
 /* End of third row */
 
 /* Start of fourth row */
 .m-content-1.fourth {
     margin-top: 20px;
     margin-bottom: 40px;
+}
+
+.m-content-1.fourth .fa-building {
+    margin-right: 5px;
 }
 
 /* Start of fourth row up */
@@ -746,4 +750,4 @@ header.debug {
     background-color: lightcyan;
 }
 
-/* Project best viewed with 1200px width
+/* Project best viewed at 1270px width
