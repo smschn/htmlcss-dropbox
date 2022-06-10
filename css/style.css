@@ -71,7 +71,6 @@ header {
 
 .h-down-center-container > .content-left {
     width: calc(100% / 3);
-    text-align: start;
     padding-left: 20px;
 }
 
@@ -88,6 +87,7 @@ header {
     position: absolute;
     left: 20px;
     bottom: 90px;
+    animation: up-down 3s linear infinite;
 }
 
 .h-img {
@@ -148,7 +148,7 @@ header {
 /* Start of third row */
 .m-content-1.third {
     display: flex;
-    height: 900px;
+    height: 750px;
 }
 
 .third-row-column {
@@ -633,7 +633,7 @@ footer {
 }
 
 .button:hover {
-    background-color: #d2d2d5;
+    background-color: #97beff;
     color: #000;
     cursor: pointer;
 }
@@ -692,13 +692,24 @@ footer {
 }
 
 /* Animation - bonus section */
-
 @keyframes circle {
     50% {
         border-radius: 50%;
     }
     100% {
         border-radius: 0%;
+    }
+}
+
+@keyframes up-down {
+    33% {
+        transform: translate(0px, -15px);
+    }
+    66% {
+        transform: translate(0px, 15px);
+    }
+    100% {
+        transform: translate(0px, 0px);
     }
 }
 
