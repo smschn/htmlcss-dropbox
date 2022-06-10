@@ -150,7 +150,7 @@ header {
 }
 
 .third-row-column {
-    width: calc(90% / 3 - 20px);
+    width: calc(100% / 3 - 20px);
     border: dashed 2px red;
     height: 100%;
     border: solid 1px #e5e5e7;
