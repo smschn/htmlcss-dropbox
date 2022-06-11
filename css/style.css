@@ -146,7 +146,7 @@ header {
 /* Start of third row */
 .m-content-1.third {
     display: flex;
-    height: 850px;
+    height: 770px;
 }
 
 .third-row-column {
@@ -750,4 +750,4 @@ header.debug {
     background-color: lightcyan;
 }
 
-/* Project best viewed at 1270px width
+/* Project best viewed at 1260px width
