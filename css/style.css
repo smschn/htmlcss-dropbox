@@ -29,11 +29,19 @@ header {
 .h-up-left, .h-up-right {
     display: flex;
     align-items: center;
+    height: 100%;
 }
 
 .h-up-left > div, .h-up-right > div {
     padding-left: 10px;
     padding-right: 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.h-up-right > .h-btn {
+    height: 50%;
 }
 
 .h-btn {
@@ -641,7 +649,7 @@ footer {
     cursor: pointer;
 }
 
-.clickable {
+.clickable a {
     text-decoration: none;
     color: #000;
 }
